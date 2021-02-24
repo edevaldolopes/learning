@@ -14,13 +14,11 @@ l1 = [10, 2, 5]
 
 # small number in list
 def smaller(n1):
-    min(n1)
     return min(n1)
 
 
 # big number in list
 def bigger(n1):
-    max(n1)
     return max(n1)
 
 
