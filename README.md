@@ -1,2 +1,2 @@
-# learning
-Learning Python
+# Learning Python
+learning to program in python
