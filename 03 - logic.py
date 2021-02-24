@@ -3,29 +3,29 @@ number = 10
 print(type(var_true))
 
 # comparison
-number = 11
+number = 3
 print(number > 0)
 print(number < 0)
 print(number >= 0)
 print(number <= 0)
 print(number == 0)
 print(number != 0)
-print(number is False)
-print(number is True)
-print(number is not True)
-print(number is not False)
 
 # logic
-if number > 0:
-    print('Your is best!!!')
+if number == 1:
+    print('is 1')
+elif number == 2:
+    print('is 2')
+elif number == 3:
+    print('is 3')
 else:
-    print('No is best!!!')
+    print('number invalid')
 
-if not number <= 0 and number < 3:
-    print('Fail')
-elif 3 < number < 7:
-    print('Good')
-elif 7 < number < 10:
-    print('Best')
-else:
-    print('Number invalid')
+# in, not, is, is not, and, or
+list1 = [1, 2, 3, 4, 5]
+print(2 in list1)
+print((not 2) in list1)
+print(list1 is list1)
+print(list1 is not list1)
+print(1 and 2 and 4 in list1)
+print((5 or 11) in list1)
