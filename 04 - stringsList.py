@@ -18,9 +18,26 @@ print(list1[-1])
 
 # add
 list1.append('four')
+list1.insert(0, 'zero')
+print(list1)
 
 # remove
 list1.remove('one')
 del list1[2]
 print(list1)
 
+# rename
+list1[0] = 'one'
+list1[1] = 'one'
+list1[2] = 'one'
+print(list1)
+
+# count
+print(list1.count('one'))
+
+# text
+print(txt1.count('a'))
+print(txt1.find('best'))
+print(txt1.upper())
+print(txt1.capitalize())
+print(txt1.islower())
