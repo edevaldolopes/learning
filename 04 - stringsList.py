@@ -36,8 +36,12 @@ print(list1)
 print(list1.count('one'))
 
 # text
-print(txt1.count('a'))
+print(len(txt1))
+print(txt1.count('e'))
 print(txt1.find('best'))
 print(txt1.upper())
 print(txt1.capitalize())
+
+# test logic
 print(txt1.islower())
+print(txt1.isnumeric())
